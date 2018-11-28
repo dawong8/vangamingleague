@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import {Navbar, NavItem, NavDropdown, Nav, MenuItem} from 'react-bootstrap';
-import { SocialIcon } from 'react-social-icons';
 
 import Main from './main.js';
 import './App.css';
@@ -48,11 +47,9 @@ class App extends Component {
 
         <div id="About" style={{background:'white', height: '5%', textAlign:'center', margin:'auto'}}> 
 
-          <SocialIcon url="https://twitter.com/we_r_eleven" />
-          <SocialIcon url="https://www.instagram.com/we_r_eleven/" />
-          <SocialIcon url="https://www.twitch.tv/we_r_eleven" />
-          <SocialIcon url="https://itunes.apple.com/us/podcast/the-we-r-eleven-podcast/id1435741008?mt=2" />
-          <SocialIcon url="https://discordapp.com/invite/UD7g8x" />
+          <a href="https://www.twitter.com/we_r_eleven"> <img src={require('./images/twitter.png')} width={50} /> </a>
+          <a href="https://www.instagram.com/we_r_eleven/"> <img src={require('./images/insta.jpg')} width={50} /> </a>
+          <a href="https://www.twitch.tv/we_r_eleven"> <img src={require('./images/twitch.png')} width={50} /> </a>
 
 
         </div>
