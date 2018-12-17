@@ -7,7 +7,7 @@ import './App.css';
 class App extends Component {
   render() {
     return (
-      <div>
+      <div >
         <Navbar inverse collapseOnSelect>
           <Navbar.Header>
             <Navbar.Brand>
@@ -29,7 +29,7 @@ class App extends Component {
               
               <NavDropdown eventKey={3} title="ABOUT VGL" id="basic-nav-dropdown">
                 <MenuItem eventKey={3.1} href="/">Sign Up</MenuItem> 
-                <MenuItem eventKey={3.2} href="https://discord.gg/NsPBMCw">Discord</MenuItem>
+                <MenuItem eventKey={3.2} href="https://discord.gg/kwNwr7J">Discord</MenuItem>
                 <MenuItem eventKey={3.3} href="https://www.twitch.tv/vangamingleague">Twitch</MenuItem>
                 <MenuItem divider />
                 <MenuItem eventKey={3.3} href="/">Season 2 - Coming Soon</MenuItem>

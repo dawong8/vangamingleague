@@ -8,7 +8,7 @@ import { Tabs, Tab, Grid, Row, Col } from 'react-bootstrap';
 class Watch extends Component {
   render() {
     return (
-      <div style={{padding:'75px', margin:'auto'}}>
+      <div style={{padding:'75px', paddingLeft:"12%", paddingRight:"12%", margin:'auto'}}>
         <Tabs defaultActiveKey={1} id="uncontrolled-tab-example">
 		  <Tab eventKey={1} title="QUARTERFINALS">
 		  	<div className="better"> 
@@ -95,7 +95,7 @@ class Watch extends Component {
 		  <Tab eventKey={3} title="FINALS">
 		    Tab 3 content
 		  </Tab>
-		</Tabs>;
+		</Tabs>
 
       </div>
     );
