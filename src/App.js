@@ -11,29 +11,28 @@ class App extends Component {
         <Navbar inverse collapseOnSelect>
           <Navbar.Header>
             <Navbar.Brand>
-              <a href="/"> We R Eleven</a>
+              <a href="/"> <img src={require('./images/VanLogoWhite.png')} width={75}/></a>
             </Navbar.Brand>
             <Navbar.Toggle />
           </Navbar.Header>
           <Navbar.Collapse>
             <Nav pullRight>
               <NavItem eventKey={2} href="/watch">
-                Watch
+                SCHEDULE
               </NavItem>
-              <NavItem eventKey={1} href="https://wereleven.podbean.com/">
-                Podcast
+              <NavItem eventKey={1} href="/teams">
+                TEAMS & STANDINGS
+              </NavItem>
+              <NavItem eventKey={4} href="/stats">
+                STATS
               </NavItem>
               
-              <NavDropdown eventKey={3} title="Find Support" id="basic-nav-dropdown">
-                <MenuItem eventKey={3.1} href="https://itunes.apple.com/us/podcast/the-we-r-eleven-podcast/id1435741008?mt=2">iTunes Podcast</MenuItem> 
+              <NavDropdown eventKey={3} title="ABOUT VGL" id="basic-nav-dropdown">
+                <MenuItem eventKey={3.1} href="/">Sign Up</MenuItem> 
                 <MenuItem eventKey={3.2} href="https://discord.gg/NsPBMCw">Discord</MenuItem>
-                <MenuItem eventKey={3.3} href="https://www.twitch.tv/we_r_eleven">Twitch</MenuItem>
+                <MenuItem eventKey={3.3} href="https://www.twitch.tv/vangamingleague">Twitch</MenuItem>
                 <MenuItem divider />
-                <MenuItem eventKey={3.3} href="https://afsp.org/">American Foundation for Suicide Prevention</MenuItem>
-                <MenuItem eventKey={3.3} href="https://www.crisistextline.org/">Suicide Hotline</MenuItem>
-                <MenuItem eventKey={3.3} href="http://remedylive.com/category/issues/suicide/">Remedy Live</MenuItem>
-                <MenuItem eventKey={3.3} href="https://www.mylifemypower.org/resources/?gclid=Cj0KCQiA8_PfBRC3ARIsAOzJ2uq9BWCSEWVnE07fcvizUeqtu7mjzrlATQ7swDCavT0qBvUnLLNTrpkaAoSUEALw_wcB">My Life My Power</MenuItem>
-
+                <MenuItem eventKey={3.3} href="/">Season 2 - Coming Soon</MenuItem>
 
               </NavDropdown>
               
@@ -45,11 +44,8 @@ class App extends Component {
         <Main/>
         
 
-        <div id="About" style={{background:'white', height: '5%', textAlign:'center', margin:'auto'}}> 
+        <div id="About" style={{ height: '5%', textAlign:'center', margin:'auto'}}> 
 
-          <a href="https://www.twitter.com/we_r_eleven"> <img src={require('./images/twitter.png')} width={50} /> </a>
-          <a href="https://www.instagram.com/we_r_eleven/"> <img src={require('./images/insta.jpg')} width={50} /> </a>
-          <a href="https://www.twitch.tv/we_r_eleven"> <img src={require('./images/twitch.png')} width={50} /> </a>
 
 
         </div>
