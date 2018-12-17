@@ -7,7 +7,7 @@ class Home extends Component {
     return (
        <div style={{paddingTop:'50px', paddingLeft:'15%', paddingRight: '15%', margin:'auto'}}>
         
-        <ReactTwitchEmbedVideo channel="jaze_tv" width="100%" height="600px" layout="video"/>
+        <ReactTwitchEmbedVideo channel="jaze_tv" width="100%" height="700px" layout="video"/>
       </div>
     );
   }
