@@ -1,32 +1,91 @@
-@import url('https://fonts.googleapis.com/css?family=Permanent+Marker');
+@import url('https://fonts.googleapis.com/css?family=Major+Mono+Display');
 @import url('https://fonts.googleapis.com/css?family=Oswald');
 
-body, html {height: 100%; background: #262728;}
-body,h1,h2,h3,h4,h5,h6 {
-
-	font-family: 'Oswald', sans-serif;
-	color: white;
+body, html {
+  height: 100%; 
+  background: #101010;
+  font-family: 'Oswald', sans-serif;
 
 }
+
+
+
+.header {
+  background-color: #121212;
+  position: fixed;
+  width: 100%;
+/*           <ReactTwitchEmbedVideo channel="vangamingleague" width="100%"  layout="video"/>
+*/
+}
+
+.home {
+  margin: 0 auto; 
+  padding: 0 20% 0 20% ;
+  min-height: 700px;
+  background: url("./images/wallpaper.jpg");
+  background-size: cover;
+}
+
+.title {
+  padding: 3em 0 1em 0;
+  font-size: 35px;
+  text-align: center;
+  font-family: 'Major Mono Display', monospace;
+  color: #C9AA71;
+
+}
+
+p {
+  margin: 0 20%;
+  text-align: center;
+  color: grey;
+  line-height: 1.6;
+  letter-spacing: 1.4px;
+}
+
+section {
+  padding-bottom: 50px;
+}
+
 .menu {display: none}
-.fancy {
-	font-family: 'Permanent Marker', cursive;     
-	color: white;
-	font-weight: bold;
-	text-align: center;
+
+.imgrow {
+/*  margin: 0 auto;
+  padding: 0 20%;
+  text-align: center;*/
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+/*  align-content: space-around;
+*/
 }
-.better {
-	font-family: 'Permanent Marker', cursive;     
-	font-size: 20px;
-	color: white;
-	font-weight: bold;
-	padding: 15px 0 0 0;
+
+h3 {
+  text-align: center;
+  color: grey;
 }
+h4 {
+  text-align: center; 
+  color: gold;
+  /*font-family: 'Major Mono Display', monospace;*/
+
+}
+
+.diamond {
+  color: #57d1cb;
+}
+
+.plat {
+  color: #049328;
+}
+
+
+
 
 /*
  *  Flex Layout Specifics
 */
-main{
+/*main{
   display:flex;
   flex-direction:row;
 }
@@ -44,11 +103,10 @@ main{
 
   .round .game-spacer{
     flex-grow:1;
-  }
+  }*/
 
 /*
- *  General Styles
-*/
+
 
 
 li.game{
@@ -78,4 +136,4 @@ li.game{
 
 span {
 	color: grey;
-}
+}*/

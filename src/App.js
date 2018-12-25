@@ -7,11 +7,11 @@ import './App.css';
 class App extends Component {
   render() {
     return (
-      <div >
-        <Navbar inverse collapseOnSelect>
+      <div>
+        <Navbar inverse collapseOnSelect className="header">
           <Navbar.Header>
             <Navbar.Brand>
-              <a href="/"> <img src={require('./images/VanLogoWhite.png')} width={75}/></a>
+              <a href="/"> <img src={require('./images/VanLogoWhite.png')} alt="logo" width={75}/></a>
             </Navbar.Brand>
             <Navbar.Toggle />
           </Navbar.Header>
@@ -23,8 +23,8 @@ class App extends Component {
               <NavItem eventKey={1} href="/teams">
                 TEAMS & STANDINGS
               </NavItem>
-              <NavItem eventKey={4} href="/stats">
-                STATS
+              <NavItem eventKey={4} href="https://www.twitch.tv/vangamingleague">
+                WATCH
               </NavItem>
               
               <NavDropdown eventKey={3} title="ABOUT VGL" id="basic-nav-dropdown">
