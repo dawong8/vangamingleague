@@ -16,9 +16,8 @@ class Home extends Component {
 	        	- About -
 	        </div>
 	        <p> 
-	        	The VGL is a newly formed League, housing players of all different caliber, competing against each other in League of Legends. Lorem ipsum dolor sit amet, consectetur adipiscing elit. In pharetra imperdiet lorem, eget convallis enim viverra non. Morbi auctor mauris vitae dignissim lobortis. Maecenas bibendum magna at vehicula aliquet. Pellentesque condimentum auctor dui, eu malesuada lorem aliquam ac. Nullam quam sapien, rutrum sit amet scelerisque scelerisque, mattis nec magna. Fusce eget imperdiet metus. In sit amet feugiat diam. Etiam laoreet faucibus orci, sit amet lacinia est dapibus non. Morbi mi diam, pretium in pretium a, pulvinar vitae ante. Vestibulum ac dui mi. Aenean facilisis vel ex id cursus. Suspendisse placerat convallis arcu sit amet dapibus. Morbi in mollis lorem, ut elementum nulla. Quisque mi lorem, dictum tincidunt accumsan eu, pretium vitae ligula. Nam convallis sem et metus faucibus pharetra. Nullam eget blandit dui.
-Phasellus vestibulum faucibus commodo. Phasellus neque ex, faucibus sed lorem eu, iaculis interdum ipsum. Sed hendrerit odio aliquet, porta odio non, scelerisque ex. Mauris pellentesque posuere sem tincidunt porta. Sed quis consectetur odio. Nam viverra id felis in aliquam. Nulla sit amet pretium odio. Nullam rutrum leo ligula, sit amet ornare metus varius ut. Vestibulum vel velit viverra, egestas ligula a, dapibus velit. Aenean pharetra laoreet tellus. Ut dapibus ex eu leo cursus, non mattis augue ornare. Nam ac felis ullamcorper, dictum metus at, sollicitudin arcu.
-	        </p> 
+	        	The league will be built around a Draft pick style. What this means is, each team will have a team captain. This team captain will be tasked with selecting his players, by turn, out of a "Free Agent" pool. All team captains of every team in the league, will select their team this way, much like a pro sports league. We are hoping to do things a little differently here. Instead of all our teams having the very best players we can find, vs the very best players, we want teams built of players from every caliber, working together, to become champions of this League. To apply to join this league, please send an email, by clicking the VGL dropdown at the top!
+	        </p>
         </section> 
         <section > 
 
@@ -46,7 +45,7 @@ Phasellus vestibulum faucibus commodo. Phasellus neque ex, faucibus sed lorem eu
 
 	        	</div>
 	        	<div>
-	        		<a href="http://na.op.gg/summoner/userName=plezzyreformed"> <img src={require('./images/lucian.gif')} width={150} alt="Plezzy Reformed" /></a>
+	        		<a href="http://na.op.gg/summoner/userName=trueanxiety"> <img src={require('./images/lucian.gif')} width={150} alt="Plezzy Reformed" /></a>
 	        		<h3> Plezzy </h3>
 	        		<h4 className="diamond">⬦ DIAMOND 2 ⬦</h4>
 

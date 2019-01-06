@@ -56,6 +56,8 @@ class Watch extends Component {
 		     			<OverlayTrigger trigger="click" placement="top" overlay={popoverTop}>
 	      					<span style={{color:"#a83958"}}> 8 </span>
 	    				</OverlayTrigger>
+	    				<div className="eventdate"> 8:30pm EST </div>
+	    				<div className="eventtime"> Teams 3 vs 4 </div>
    					 </span>
 	     			<span> 9 </span>
 	     			<span> 10 </span>
@@ -64,12 +66,15 @@ class Watch extends Component {
 	     				<OverlayTrigger trigger="click" placement="top" overlay={popoverTop11}>
 	      					<span style={{color:"#a83958"}}> 11 </span>
 	    				</OverlayTrigger>
+	    				<div className="eventdate"> 9:00pm EST </div>
+	    				<div className="eventtime"> Teams 1 vs 5 </div>
 	     			</span>
 	     			<span> 
 	     				<OverlayTrigger trigger="click" placement="top" overlay={popoverTop12}>
 	      					<span style={{color:"#a83958"}}> 12 </span>
 	    				</OverlayTrigger>
-
+	    				<div className="eventdate"> 9:00pm EST </div>
+	    				<div className="eventtime"> Teams 1 vs 2 </div>
 	     			</span>
      			</div>
      			<div className="week"> 
@@ -77,11 +82,15 @@ class Watch extends Component {
 	     				<OverlayTrigger trigger="click" placement="top" overlay={popoverTop13}>
 	      					<span style={{color:"#a83958"}}> 13 </span>
 	    				</OverlayTrigger>
+	    				<div className="eventdate"> 9:00pm EST </div>
+	    				<div className="eventtime"> Teams 5 vs 6 </div>
 	     			</span>
 	     			<span> 
 	     				<OverlayTrigger trigger="click" placement="top" overlay={popoverTop}>
 	      					<span style={{color:"#a83958"}}> 14 </span>
 	    				</OverlayTrigger>
+	    				<div className="eventdate"> 8:30pm EST </div>
+	    				<div className="eventtime"> Teams 3 vs 4 </div>
 	     			</span>
 	     			<span> 15 </span>
 	     			<span> 16 </span>
@@ -94,6 +103,8 @@ class Watch extends Component {
 	     				<OverlayTrigger trigger="click" placement="top" overlay={popoverTop20}>
 	      					<span style={{color:"#a83958"}}> 20 </span>
 	    				</OverlayTrigger>
+	    				<div className="eventdate"> 9:00pm EST </div>
+	    				<div className="eventtime"> Teams 2 vs 6 </div>
 	     			</span>
 	     			<span> 21 </span>
 	     			<span> 22 </span>

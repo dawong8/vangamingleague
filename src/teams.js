@@ -54,7 +54,7 @@ class Teams extends Component {
 
 			  </tr>
 			  <tr>
-			    <td>TEAM 4 (Plezzers)</td>
+			    <td>TEAM 4 (Toronto Raptors)</td>
 			    <td> 0</td>
 			    <td> 0</td>
 			    <td> 0/0/0</td>
