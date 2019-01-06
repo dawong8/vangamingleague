@@ -22,6 +22,7 @@ body, html {
   margin: 0 auto; 
   padding: 0 20% 0 20% ;
   min-height: 700px;
+  height:1vh;
   background: url("./images/wallpaper.jpg");
   background-size: cover;
 }
@@ -80,6 +81,83 @@ h4 {
 }
 
 
+
+.calendar {
+  position: fixed;
+  top: 100px;
+  margin: 0 auto;
+  /*text-align: center;*/
+  width: 100%;
+  font-size: 20px;
+  left: 25%;
+  right: 25%;
+
+  /*background: url("./images/VanLogoWhite.png");*/
+  /*background-size: cover;*/
+
+}
+
+
+.calendar span {
+  color: white;
+  border: solid #23262b 1px;
+  /*padding: 0 0 7% 10%;*/
+  padding-right: 2px;
+  text-align: right;
+  height:100px; 
+  width:150px;
+}
+
+.week {
+  display: flex;
+}
+
+#calendar-title{
+/*  padding-bottom: 20px;
+*/  color: #C9AA71;
+  padding-left: 10px;
+  /*font-size: 20px;*/
+}
+
+
+
+
+
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+  background: #121212;
+}
+
+td, th {
+  /*border: 1px solid #dddddd;*/
+  text-align: center;
+  padding: 8px;
+  color: white;
+
+}
+th {
+  color: gray;
+}
+
+
+tr:nth-child(even) {
+  background-color: #101010;
+}
+
+
+
+.stats {
+  position: fixed;
+  top: 15%;
+  width: 100%;
+}
+
+.stats h2 {
+  padding-left: 10px;
+  color: #C9AA71;
+}
 
 
 /*

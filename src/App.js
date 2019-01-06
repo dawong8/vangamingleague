@@ -44,12 +44,6 @@ class App extends Component {
         <Main/>
         
 
-        <div id="About" style={{ height: '5%', textAlign:'center', margin:'auto'}}> 
-
-
-
-        </div>
-
 
       </div>
     );

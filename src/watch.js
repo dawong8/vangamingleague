@@ -1,102 +1,122 @@
 import React, { Component } from 'react';
-import { Tabs, Tab, Grid, Row, Col } from 'react-bootstrap';
+import {OverlayTrigger, Button, Popover} from 'react-bootstrap';
+
+const popoverTop = (
+  <Popover id="popover-positioned-top" title="Team 3 vs. Team 4">
+    <strong>8:30 EST</strong> 
+  </Popover>
+);
+
+const popoverTop11 = (
+  <Popover id="popover-positioned-top" title="Team 1 vs. Team 5">
+    <strong>9:00 EST</strong> 
+  </Popover>
+);
+
+const popoverTop12 = (
+  <Popover id="popover-positioned-top" title="Team 1 vs. Team 2">
+    <strong>9:00 EST</strong> 
+  </Popover>
+);
+
+const popoverTop13 = (
+  <Popover id="popover-positioned-top" title="Team 5 vs. Team 6">
+    <strong>9:00 EST</strong> 
+  </Popover>
+);
 
 
-
+const popoverTop20 = (
+  <Popover id="popover-positioned-top" title="Team 2 vs. Team 6">
+    <strong>9:00 EST</strong> 
+  </Popover>
+);
 
 class Watch extends Component {
   render() {
     return (
-      <div style={{padding:'75px', paddingLeft:"12%", paddingRight:"12%", margin:'auto'}}>
-        <Tabs defaultActiveKey={1} id="uncontrolled-tab-example">
-		  <Tab eventKey={1} title="QUARTERFINALS">
-		  	<div className="better"> 
-		  		<p style={{color:"gold"}}> Sunday, Jan 5th - DAY 1</p>
-		  		
+     	<div> 
+
+     		<div className="calendar">
+     			<h2 id="calendar-title"> JAN 2019 </h2>
+
+     			<div className="week"> 
+	     			<span>  </span>
+	     			<span>  </span>
+	     			<span> 1 </span>
+	     			<span> 2 </span>
+	     			<span> 3 </span>
+	     			<span> 4 </span>
+	     			<span> 5 </span>
+     			</div>
+     			<div className="week"> 
+	     			<span> 6 </span>
+	     			<span> 7 </span>
+	     			<span> 
+		     			<OverlayTrigger trigger="click" placement="top" overlay={popoverTop}>
+	      					<span style={{color:"#a83958"}}> 8 </span>
+	    				</OverlayTrigger>
+   					 </span>
+	     			<span> 9 </span>
+	     			<span> 10 </span>
+	     			<span> 
+
+	     				<OverlayTrigger trigger="click" placement="top" overlay={popoverTop11}>
+	      					<span style={{color:"#a83958"}}> 11 </span>
+	    				</OverlayTrigger>
+	     			</span>
+	     			<span> 
+	     				<OverlayTrigger trigger="click" placement="top" overlay={popoverTop12}>
+	      					<span style={{color:"#a83958"}}> 12 </span>
+	    				</OverlayTrigger>
+
+	     			</span>
+     			</div>
+     			<div className="week"> 
+	     			<span> 
+	     				<OverlayTrigger trigger="click" placement="top" overlay={popoverTop13}>
+	      					<span style={{color:"#a83958"}}> 13 </span>
+	    				</OverlayTrigger>
+	     			</span>
+	     			<span> 
+	     				<OverlayTrigger trigger="click" placement="top" overlay={popoverTop}>
+	      					<span style={{color:"#a83958"}}> 14 </span>
+	    				</OverlayTrigger>
+	     			</span>
+	     			<span> 15 </span>
+	     			<span> 16 </span>
+	     			<span> 17 </span>
+	     			<span> 18 </span>
+	     			<span> 19 </span>
+     			</div>
+     			<div className="week"> 
+	     			<span> 
+	     				<OverlayTrigger trigger="click" placement="top" overlay={popoverTop20}>
+	      					<span style={{color:"#a83958"}}> 20 </span>
+	    				</OverlayTrigger>
+	     			</span>
+	     			<span> 21 </span>
+	     			<span> 22 </span>
+	     			<span> 23 </span>
+	     			<span> 24 </span>
+	     			<span> 25 </span>
+	     			<span> 26 </span>
+     			</div>
+     			<div className="week"> 
+	     			<span> 27 </span>
+	     			<span> 28 </span>
+	     			<span> 29 </span>
+	     			<span> 30 </span>
+	     			<span> 31 </span>
+	     			<span>  </span>
+	     			<span>  </span>
+     			</div>
+     			
+     		</div>
 
 
 
-			    <Grid>
-				  <Row className="show-grid">
-				    <Col xs={1} md={1} >
-						<div>
-				    		<h3> 10:00pm </h3>
-				    	</div>			    
-				    </Col>
-				    <Col xs={17} md={11}>
-				    	<div style={{textAlign:'center'}}>
-				    		<h3> Team 1 <i style={{color:"gold"}}> vs. </i> Team 6</h3>
-				    		<h5 style={{color:"red"}}> 0 - 2 </h5>
-				    	</div>	
-				    </Col>
-				  </Row>
-				</Grid>
-			    <hr/>
-			    <Grid>
-				  <Row className="show-grid">
-				    <Col xs={1} md={1} >
-						<div>
-				    		<h3> 10:00pm </h3>
-				    	</div>			    
-				    </Col>
-				    <Col xs={17} md={11}>
-				    	<div style={{textAlign:'center'}}>
-				    		<h3> Team 5 <i style={{color:"gold"}}> vs. </i> Team 2</h3>
-				    		<h5 style={{color:"red"}}> 1 - 2 </h5>
-				    	</div>	
-				    </Col>
-				  </Row>
-				</Grid>
-				<hr/>
-				<br/>
-
-		  		<p style={{color:"gold"}}> Monday, Jan 6th - DAY 2</p>
-
-		  		<Grid>
-				  <Row className="show-grid">
-				    <Col xs={1} md={1} >
-						<div>
-				    		<h3> 10:00pm </h3>
-				    	</div>			    
-				    </Col>
-				    <Col xs={17} md={11}>
-				    	<div style={{textAlign:'center'}}>
-				    		<h3> Team 1 <i style={{color:"gold"}}> vs. </i> Team 6</h3>
-				    		<h5 style={{color:"red"}}> 0 - 2 </h5>
-				    	</div>	
-				    </Col>
-				  </Row>
-				</Grid>
-			    <hr/>
-			    <Grid>
-				  <Row className="show-grid">
-				    <Col xs={1} md={1} >
-						<div>
-				    		<h3> 10:00pm </h3>
-				    	</div>			    
-				    </Col>
-				    <Col xs={17} md={11}>
-				    	<div style={{textAlign:'center'}}>
-				    		<h3> Team 5 <i style={{color:"gold"}}> vs. </i> Team 2</h3>
-				    		<h5 style={{color:"red"}}> 1 - 2 </h5>
-				    	</div>	
-				    </Col>
-				  </Row>
-				</Grid>
-				<hr/>
-				<br/>
-		  	</div>
-
-		  </Tab>
-		  <Tab eventKey={2} title="SEMIFINALS">
-		    Tab 2 content
-		  </Tab>
-		  <Tab eventKey={3} title="FINALS">
-		    Tab 3 content
-		  </Tab>
-		</Tabs>
-
-      </div>
+     	</div>
     );
   }
 }
