@@ -14,8 +14,8 @@ const popoverTop11 = (
 );
 
 const popoverTop12 = (
-  <Popover id="popover-positioned-top" title="Team 1 vs. Team 2">
-    <strong>9:00 EST</strong> 
+  <Popover id="popover-positioned-top" title="Team 1 vs. 2 | Team 3 vs. 7">
+    <strong>9:00 EST, 10:00 EST</strong> 
   </Popover>
 );
 
@@ -31,6 +31,8 @@ const popoverTop20 = (
     <strong>9:00 EST</strong> 
   </Popover>
 );
+
+
 
 class Watch extends Component {
   render() {
@@ -53,11 +55,7 @@ class Watch extends Component {
 	     			<span> 6 </span>
 	     			<span> 7 </span>
 	     			<span> 
-		     			<OverlayTrigger trigger="click" placement="top" overlay={popoverTop}>
-	      					<span style={{color:"#a83958"}}> 8 </span>
-	    				</OverlayTrigger>
-	    				<div className="eventdate"> 8:30pm EST </div>
-	    				<div className="eventtime"> Teams 3 vs 4 </div>
+		     			8
    					 </span>
 	     			<span> 9 </span>
 	     			<span> 10 </span>
@@ -75,6 +73,8 @@ class Watch extends Component {
 	    				</OverlayTrigger>
 	    				<div className="eventdate"> 9:00pm EST </div>
 	    				<div className="eventtime"> Teams 1 vs 2 </div>
+	    				<div className="eventdate"> 10:00pm EST </div>
+	    				<div className="eventtime"> Teams 3 vs 7 </div>
 	     			</span>
      			</div>
      			<div className="week"> 

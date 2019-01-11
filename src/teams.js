@@ -20,7 +20,7 @@ class Teams extends Component {
 
 			  </tr>
 			  <tr>
-			    <td>TEAM 1</td>
+			    <td>TEAM 1 (Divine Ascension Gaming)</td>
 			    <td> 0</td>
 			    <td> 0</td>
 			    <td> 0/0/0</td>
@@ -65,7 +65,7 @@ class Teams extends Component {
 
 			  </tr>
 			  <tr>
-			    <td>TEAM 5</td>
+			    <td>TEAM 5 (Marauders Esports)</td>
 			    <td> 0</td>
 			    <td> 0</td>
 			    <td> 0/0/0</td>
@@ -76,7 +76,7 @@ class Teams extends Component {
 
 			  </tr>
 			  <tr>
-			    <td>TEAM 6 (Strife)</td>
+			    <td>TEAM 6 (Strife Esports)</td>
 			    <td> 0</td>
 			    <td> 0</td>
 			    <td> 0/0/0</td>
