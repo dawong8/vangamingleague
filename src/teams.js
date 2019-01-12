@@ -21,13 +21,13 @@ class Teams extends Component {
 			  </tr>
 			  <tr>
 			    <td>TEAM 1 (Divine Ascension Gaming)</td>
-			    <td> 0</td>
-			    <td> 0</td>
-			    <td> 0/0/0</td>
-			    <td> 0/0/0</td>
-			    <td> 0/0/0</td>
-			    <td> 0/0/0</td>
-			    <td> 0/0/0</td>
+			    <td> 1</td>
+			    <td> 1</td>
+			    <td> 2.5/2.5/4.5</td>
+			    <td> 1.5/3.5/3</td>
+			    <td> 2.5/4/3.5</td>
+			    <td> 2.5/4/1</td>
+			    <td> 0/5/5</td>
 
 
 			  </tr>
@@ -66,13 +66,13 @@ class Teams extends Component {
 			  </tr>
 			  <tr>
 			    <td>TEAM 5 (Marauders Esports)</td>
-			    <td> 0</td>
-			    <td> 0</td>
-			    <td> 0/0/0</td>
-			    <td> 0/0/0</td>
-			    <td> 0/0/0</td>
-			    <td> 0/0/0</td>
-			    <td> 0/0/0</td>
+			    <td> 1</td>
+			    <td> 1</td>
+			    <td> 2/4.5/1</td>
+			    <td> 0/3/6</td>
+			    <td> 7.5/3/3</td>
+			    <td> 4/2.5/3</td>
+			    <td> 0/3/5</td>
 
 			  </tr>
 			  <tr>
