@@ -49,7 +49,7 @@ class Teams extends Component {
 
 			  </tr>
 			  <tr>
-			    <td>TEAM 3</td>
+			    <td>TEAM 3 (Team Solo Queue)</td>
 			    <td> 0 </td>
 
 			    <td> 0</td>
