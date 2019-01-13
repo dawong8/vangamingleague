@@ -27,38 +27,38 @@ class Teams extends Component {
 			    <td>TEAM 1 (Divine Ascension Gaming)</td>
 			    <td> 1 </td>
 			    <td> 1</td>
-			    <td> 1</td>
-			    <td> 5/5/8</td>
-			    <td> 3/6/15</td>
-			    <td> 6/3/17</td>
-			    <td> 16/5/6</td>
-			    <td> 2/8/23</td>
+			    <td> 3</td>
+			    <td> 7/15/12</td>
+			    <td> 6/17/16</td>
+			    <td> 8/14/21</td>
+			    <td> 20/10/9</td>
+			    <td> 2/17/30</td>
 
 			  </tr>
 			  <tr>
 			    <td>TEAM 2 (Gutsi's Cucksies)</td>
-			    <td> 0 </td>
+			    <td> 3 </td>
 
+			    <td> 2</td>
 			    <td> 0</td>
-			    <td> 0</td>
-			    <td> 0/0/0</td>
-			    <td> 0/0/0</td>
-			    <td> 0/0/0</td>
-			    <td> 0/0/0</td>
-			    <td> 0/0/0</td>
+			    <td> 12/2/12</td>
+			    <td> 20/4/11</td>
+			    <td> 7/2/19</td>
+			    <td> 4/1/16</td>
+			    <td> 3/2/24</td>
 
 			  </tr>
 			  <tr>
 			    <td>TEAM 3 (Team Solo Queue)</td>
-			    <td> 0 </td>
+			    <td> 1 </td>
 
-			    <td> 0</td>
-			    <td> 0</td>
-			    <td> 0/0/0</td>
-			    <td> 0/0/0</td>
-			    <td> 0/0/0</td>
-			    <td> 0/0/0</td>
-			    <td> 0/0/0</td>
+			    <td> 1</td>
+			    <td> 1</td>
+			    <td> 2/12/16</td>
+			    <td> 16/7/13</td>
+			    <td> 8/4/22</td>
+			    <td> 16/9/11</td>
+			    <td> 5/8/25</td>
 
 			  </tr>
 			  <tr>
@@ -102,15 +102,15 @@ class Teams extends Component {
 			  </tr>
 			  <tr>
 			    <td>TEAM 7 (BLT Sandwiches)</td>
-			    <td> 0</td>
+			    <td> 1</td>
 
-			    <td> 0</td>
-			    <td> 0</td>
-			    <td> 0/0/0</td>
-			    <td> 0/0/0</td>
-			    <td> 0/0/0</td>
-			    <td> 0/0/0</td>
-			    <td> 0/0/0</td>
+			    <td> 1</td>
+			    <td> 1</td>
+			    <td> 7/9/17</td>
+			    <td> 5/7/17</td>
+			    <td> 12/9/3</td>
+			    <td> 13/13/13</td>
+			    <td> 3/9/27</td>
 
 			  </tr>
 			</table>
