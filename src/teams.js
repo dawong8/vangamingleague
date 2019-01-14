@@ -76,28 +76,28 @@ class Teams extends Component {
 			  </tr>
 			  <tr>
 			    <td>TEAM 5 (Marauders Esports)</td>
-			    <td> 1 </td>
+			    <td> 2 </td>
 
-			    <td> 1</td>
-			    <td> 1</td>
-			    <td> 4/9/2</td>
-			    <td> 0/6/12</td>
-			    <td> 15/7/7</td>
-			    <td> 8/4/6</td>
-			    <td> 0/6/10</td>
+			    <td> 2</td>
+			    <td> 2</td>
+			    <td> 23/17/22</td>
+			    <td> 5/16/39</td>
+			    <td> 41/21/25</td>
+			    <td> 17/15/28</td>
+			    <td> 3/16/39</td>
 
 			  </tr>
 			  <tr>
 			    <td>TEAM 6 (Strife Esports)</td>
-			    <td> 0</td>
+			    <td> 1</td>
 
-			    <td> 0</td>
-			    <td> 0</td>
-			    <td> 0/0/0</td>
-			    <td> 0/0/0</td>
-			    <td> 0/0/0</td>
-			    <td> 0/0/0</td>
-			    <td> 0/0/0</td>
+			    <td> 1</td>
+			    <td> 1</td>
+			    <td> 7/15/26</td>
+			    <td> 9/12/31</td>
+			    <td> 10/12/21</td>
+			    <td> 16/10/18</td>
+			    <td> 11/13/24</td>
 
 			  </tr>
 			  <tr>
