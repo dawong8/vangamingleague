@@ -51,6 +51,7 @@ class Teams extends Component {
 			  <tr>
 			    <td>TEAM 3 (Team Solo Queue)</td>
 			    <td> 1 </td>
+			    <td> 1 </td>
 
 			    <td> 3</td>
 			    <td> 5/24/28</td>
