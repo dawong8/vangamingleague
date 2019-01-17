@@ -52,26 +52,25 @@ class Teams extends Component {
 			    <td>TEAM 3 (Team Solo Queue)</td>
 			    <td> 1 </td>
 
-			    <td> 1</td>
-			    <td> 1</td>
-			    <td> 2/12/16</td>
-			    <td> 16/7/13</td>
-			    <td> 8/4/22</td>
-			    <td> 16/9/11</td>
-			    <td> 5/8/25</td>
+			    <td> 3</td>
+			    <td> 5/24/28</td>
+			    <td> 24/18/23</td>
+			    <td> 24/19/30</td>
+			    <td> 21/22/17</td>
+			    <td> 6/18/36</td>
 
 			  </tr>
 			  <tr>
 			    <td>TEAM 4 (Toronto Raptors)</td>
 
+			    <td> 3</td>
+			    <td> 2</td>
 			    <td> 0</td>
-			    <td> 0</td>
-			    <td> 0</td>
-			    <td> 0/0/0</td>
-			    <td> 0/0/0</td>
-			    <td> 0/0/0</td>
-			    <td> 0/0/0</td>
-			    <td> 0/0/0</td>
+			    <td> 14/7/19</td>
+			    <td> 10/9/16</td>
+			    <td> 13/5/17</td>
+			    <td> 20/7/10</td>
+			    <td> 4/5/32</td>
 
 			  </tr>
 			  <tr>
