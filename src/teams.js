@@ -25,14 +25,14 @@ class Teams extends Component {
 			  </tr>
 			  <tr>
 			    <td>TEAM 1 (Divine Ascension Gaming)</td>
-			    <td> 1 </td>
-			    <td> 1</td>
+			    <td> 4 </td>
 			    <td> 3</td>
-			    <td> 7/15/12</td>
-			    <td> 6/17/16</td>
-			    <td> 8/14/21</td>
-			    <td> 20/10/9</td>
-			    <td> 2/17/30</td>
+			    <td> 3</td>
+			    <td> 24/19/17</td>
+			    <td> 10/25/32</td>
+			    <td> 27/18/39</td>
+			    <td> 31/18/25</td>
+			    <td> 9/25/46</td>
 
 			  </tr>
 			  <tr>
@@ -79,12 +79,12 @@ class Teams extends Component {
 			    <td> 2 </td>
 
 			    <td> 2</td>
-			    <td> 2</td>
-			    <td> 23/17/22</td>
-			    <td> 5/16/39</td>
-			    <td> 41/21/25</td>
-			    <td> 17/15/28</td>
-			    <td> 3/16/39</td>
+			    <td> 4</td>
+			    <td> 29/25/29</td>
+			    <td> 9/29/52</td>
+			    <td> 44/38/30</td>
+			    <td> 34/26/31</td>
+			    <td> 4/25/58</td>
 
 			  </tr>
 			  <tr>
