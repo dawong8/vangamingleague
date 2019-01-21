@@ -37,15 +37,15 @@ class Teams extends Component {
 			  </tr>
 			  <tr>
 			    <td>TEAM 2 (Gutsi's Cucksies)</td>
-			    <td> 3 </td>
+			    <td> 7 </td>
 
-			    <td> 2</td>
-			    <td> 0</td>
-			    <td> 12/2/12</td>
-			    <td> 20/4/11</td>
-			    <td> 7/2/19</td>
-			    <td> 4/1/16</td>
-			    <td> 3/2/24</td>
+			    <td> 5</td>
+			    <td> 1</td>
+			    <td> 39/19/54</td>
+			    <td> 48/26/54</td>
+			    <td> 24/20/68</td>
+			    <td> 41/9/65</td>
+			    <td> 11/19/104</td>
 
 			  </tr>
 			  <tr>
@@ -92,25 +92,25 @@ class Teams extends Component {
 			    <td> 1</td>
 
 			    <td> 1</td>
-			    <td> 1</td>
-			    <td> 7/15/26</td>
-			    <td> 9/12/31</td>
-			    <td> 10/12/21</td>
-			    <td> 16/10/18</td>
-			    <td> 11/13/24</td>
+			    <td> 3</td>
+			    <td> 12/27/46</td>
+			    <td> 23/26/41</td>
+			    <td> 15/18/35</td>
+			    <td> 25/23/32</td>
+			    <td> 12/32/38</td>
 
 			  </tr>
 			  <tr>
 			    <td>TEAM 7 (BLT Sandwiches)</td>
-			    <td> 1</td>
+			    <td> 2</td>
 
-			    <td> 1</td>
-			    <td> 1</td>
-			    <td> 7/9/17</td>
-			    <td> 5/7/17</td>
-			    <td> 12/9/3</td>
-			    <td> 13/13/13</td>
-			    <td> 3/9/27</td>
+			    <td> 2</td>
+			    <td> 2</td>
+			    <td> 14/19/33</td>
+			    <td> 10/18/48</td>
+			    <td> 35/18/21</td>
+			    <td> 26/24/26</td>
+			    <td> 3/21/53</td>
 
 			  </tr>
 			</table>
